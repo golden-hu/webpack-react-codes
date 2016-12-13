@@ -17,8 +17,7 @@ class Deskmark extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            items: [{"id": "6c84fb90-12c4-11e1-840d-7b25c5ee775a","title": "Hello", "content": "# testing markdown", "time": 1458030208359},
-                        {"id": "6c84fb90-12c4-11e1-840d-7b25c5ee775b","title": "Hello2", "content": "# Hello World", "time": 1458030208359}],
+            items: [],
             selectedId: null,
             editing: false
         };
